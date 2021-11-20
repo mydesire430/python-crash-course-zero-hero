@@ -32,3 +32,36 @@ thickness = 0.225
 volume = length*width*thickness
 print(volume)
 
+
+#Arithmetic operation
+x = 100
+y = 25
+print(x/y)
+
+#simple intrest PRT/100
+p = float(input ('the principal :'))
+r = float(input('the rate :'))
+t = float(input('the time :'))
+simple_interest = (p * r * t)/100
+print(simple_interest)
+
+firstname = input("input your First name : ")
+lastname = input("input your Last name : ")
+print ("Hello " + lastname + " " + firstname)
+
+#Average age A+B+C+D+E/5
+A=float(input('the age A :'))
+B=float(input('the age B :'))
+C=float(input('the age C :'))
+D=float(input('the age D :'))
+E=float(input('the age E :'))
+average_age = (A + B + C + D + E)/5
+print(average_age)
+
+#Convert Celsius to Fahrenheit F = 1.8*C + 32
+C = float(input('the celsius C :'))
+fahrenheit_F = (1.8*C + 32)
+print(fahrenheit_F)
+
+X = 'Hello there, how old are you?'
+print(X[13:20])
